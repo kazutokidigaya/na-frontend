@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { useRouter, useParams } from "next/navigation";
+import { useParams } from "next/navigation";
 import BookingModal from "@/components/BookingModal";
 import Loading from "@/components/Loading";
 import { toast } from "react-toastify";
